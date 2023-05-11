@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+    <title>Python no navegador</title>
+</head>
+
+<body>
+    <py-script>
+        nota1 = float(input("Digite a 1ª nota: "))
+        nota2 = float(input("Digite a 2ª nota: "))
+        media = (nota1 + nota2) / 2
+
+        if media == 10:
+            print("Aluno aprovado com distinção")
+        elif media >= 7:
+            print("Aluno aprovado")
+        else:
+            print("Aluno reprovado")
+
+    </py-script>
+</body>
+
+</html>
